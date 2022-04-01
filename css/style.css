@@ -89,6 +89,9 @@ body {
     .hero .form-box form button{
         transform: translateX(-12%) !important
     }
+    .alert{
+        font-size: 15px !important
+    }
 }
 
 

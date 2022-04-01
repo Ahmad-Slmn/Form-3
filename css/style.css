@@ -83,8 +83,11 @@ body {
 @media(max-width:450px) {
 
     .hero .form-box {
-        width: 320px;
-        height: 404px
+        width: 320px
+    }
+
+    .hero .form-box form button{
+        transform: translateX(-12%) !important
     }
 }
 
@@ -168,7 +171,8 @@ body {
     border: 0;
     border-radius: 30px;
     color: #fff;
-    font-weight: bold
+    font-weight: bold;
+    transform: translateX(-7%)
 }
 
 .hero .form-box form input[type="checkbox"] {

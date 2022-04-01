@@ -86,11 +86,8 @@ body {
         width: 320px
     }
 
-    .hero .form-box form button{
-        transform: translateX(-12%) !important
-    }
     .alert{
-        font-size: 15px !important
+    font-size: 15px !important
     }
 }
 
@@ -126,12 +123,13 @@ body {
 .hero .form-box form {
     position: absolute;
     top: 180px;
-    width: 280px;
-    transition: var(--trans)
+    width: 100%;
+    transition: var(--trans);
+    padding: 0 10px
 }
 
 #login {
-    left: 50px
+    left: 0
 }
 
 #login input {
@@ -175,7 +173,7 @@ body {
     border-radius: 30px;
     color: #fff;
     font-weight: bold;
-    transform: translateX(-7%)
+    transform: translateX(-1%)
 }
 
 .hero .form-box form input[type="checkbox"] {

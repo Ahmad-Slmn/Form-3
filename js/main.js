@@ -20,14 +20,14 @@ document.querySelector("#register button").onclick = function () {
 function register() {
     form1.style.left = "-450px";
 
-    form2.style.left = "50px";
+    form2.style.left = "0";
 
     btn.style.left = "120px"
 }
 
 function login() {
     document.querySelector('.alert').classList.remove("down")
-    form1.style.left = "50px";
+    form1.style.left = "0";
 
     form2.style.left = "450px";
 
